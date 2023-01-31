@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quotes</title>
+    <link rel="stylesheet" href="RQ.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+   <div class="container">
+    <h1>
+        <i class="fa fa-quote-left"></i>
+        <span class="quote" id="quote"></span>
+        <i class="fa fa-quote-right"></i>
+    </h1>
+    <p class="author" id="author"></p>
+    <br/>
+    <div class="buttons">
+        <a class="twitter" id="tweet" data-size="large" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter">
+   </i></a>
+   <!---Add onClick Event on our Next Quote-->
+<button class="next" onclick="getNewQuote()"> Next Quote</button>
+</div>
+   </div>
+</body>
+
+<script src="RQ.js"></script>
+</html>
